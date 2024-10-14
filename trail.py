@@ -14,7 +14,7 @@ qr = qrcode.QRCode(
 )
 
 # Add data to the QR code
-qr.add_data(data)
+qr.add_data(data) 
 qr.make(fit=True)
 
 # Generate the QR code image
