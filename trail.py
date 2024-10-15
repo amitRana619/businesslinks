@@ -2,9 +2,9 @@ import qrcode
 name = (input("Enter the name "))
 
 # URL or text you want to encode into the QR code
-data = "https://amitrana619.github.io/businesslinks/"  # Replace with your URL
+# data = "https://amitrana619.github.io/businesslinks/"  # Replace with your URL
 
-# data = "http://localhost:8000/"
+data = "http://localhost:8000/"
 # Create a QR code instance
 qr = qrcode.QRCode(
     version=1,  # Size of the QR code (1 is the smallest)

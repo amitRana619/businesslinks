@@ -22,7 +22,8 @@ body {
 .business-card {
     font-family: 'Arial Black', Arial, sans-serif;
     background-color: #B9242A;
-    /* background-image: url('./main.jpeg');
+    /* background-color: #FA0033; */
+    /* background-image: url('./Drawing-01.jpeg');
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; */
@@ -37,8 +38,8 @@ body {
 }
 
 .logo {
-    width: 200px; /* Increase logo size */
-    height: 120px;
+    width: 300px; /* Increase logo size */
+    height: 150px;
 }
 
 
@@ -97,7 +98,7 @@ body {
 }
 
 .social-links h4 {
-    margin-top: 20px; /* Add some space above the h3 */
+    /* margin-top: 20px;  */
     margin-bottom: 10px; /* Space below the h3 */
     color: #414141;
     font-size: 1.1em;
@@ -130,8 +131,9 @@ body {
     vertical-align: middle;
     margin-right: 10px;
     max-width: 100%; 
-    height: auto;
-    width: 20px; 
+    height: 40px;
+    /* width: 20px;  */
+    width: 40px;
 }
 
 
@@ -142,6 +144,50 @@ footer {
     color: #888;
     font-family: 'Arial Black', Arial, sans-serif;
 }
+
+/* 
+@media (max-width: 600px) {
+    body {
+        padding: 20px;
+    }
+
+    .business-card {
+        padding: 20px;
+        font-size: 1em;
+    }
+
+    .business-card h1 {
+        font-size: 1.5em;
+    }
+
+    .social-links {
+        padding: 10px;
+    }
+
+    .social-links p {
+        font-size: 0.9em;
+    }
+
+    .social-links img {
+        width: 20px;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .business-card {
+        font-size: 0.9em;
+        padding: 15px;
+    }
+
+    .business-card h1 {
+        font-size: 1.2em;
+    }
+
+    .social-links img {
+        width: 15px; 
+    }
+} */
 
 
 @media (max-width: 600px) {
@@ -166,8 +212,10 @@ footer {
         font-size: 0.9em;
     }
 
-    .social-links img {
-        width: 20px; /* Resize icons for smaller screens */
+    .social-links img,
+    .small-icon {
+        width: 30px; /* Resize icons for smaller screens */
+        height: auto; /* Maintain aspect ratio */
     }
 }
 
@@ -182,7 +230,9 @@ footer {
         font-size: 1.2em;
     }
 
-    .social-links img {
-        width: 15px; /* Even smaller icons */
+    .social-links img,
+    .small-icon {
+        width: 25px; /* Slightly smaller icons for very small screens */
+        height: auto; /* Maintain aspect ratio */
     }
 }

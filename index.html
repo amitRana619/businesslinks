@@ -6,10 +6,18 @@
     <title>Business Card</title>
     <link rel="stylesheet" href="index.css"> 
     <style>
-        
         .social-links p {
             display: inline; 
             margin-right: 10px; 
+        }
+
+        /* New CSS to remove spacing */
+        .inc-links h4 {
+            margin: 0; /* Remove margin */
+        }
+
+        .logo {
+            margin-top: 0; /* Optional: Remove top margin if needed */
         }
     </style>
 </head>
@@ -22,13 +30,13 @@
         <p><a href="https://www.kirusa.com" target="_blank"><img class="logo"  src="./kirusa_logo.jpeg"></a></p>
         <!-- Kirusa Inc Links -->
         <div class="inc-links">
-            <h4>Connect with Us</h3>
+            <h4>Connect with Us</h4> <!-- Changed to correct closing tag -->
             <p>
-                <a href="https://www.facebook.com/KirusaInc" target="_blank">
-                    <img class="small-icon" src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Icon">
-                </a>
                 <a href="https://www.linkedin.com/company/kirusa/" target="_blank">
                     <img class="small-icon" src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn Icon">
+                </a>
+                <a href="https://www.facebook.com/KirusaInc" target="_blank">
+                    <img class="small-icon" src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Icon">
                 </a>
             </p>
         </div>
@@ -37,8 +45,8 @@
     <!-- Social Media Links -->
     <div class="social-links">
         <h2>Our Products</h2>
-        <h4>Haippy Fit</h3>
-        <p>
+        <h4>Haippy Fit</h4>
+        <p class="icons">
             <a href="https://haippyfit.com/" target="_blank">
                 <img src="happy_fit.png" alt="Haippy Fit">
             </a>
@@ -52,11 +60,11 @@
 
         <h4>Kirusa Channels</h4>
         <p>
-            <a href="https://www.facebook.com/KirusaChannels" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Icon">
-            </a>
             <a href="https://www.instagram.com/kirusa_channels/" target="_blank">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Icon">
+            </a>
+            <a href="https://www.facebook.com/KirusaChannels" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Icon">
             </a>
         </p>
     </div>
